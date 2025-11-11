@@ -1,69 +1,63 @@
-# Zomato Restaurant Data Analysis
+# Zomato Restaurant Data Analysis 🍽️📊
 
-This project analyzes Zomato restaurant data to uncover customer behavior patterns, pricing strategies, and city-wise restaurant performance. The goal of this analysis was to understand what factors influence restaurant popularity and how data-driven insights can help food businesses improve customer engagement.
-
----
-
-##  Project Objectives
-- Identify key factors affecting restaurant ratings and customer preferences
-- Compare restaurant performance across different cities and cuisines
-- Analyze pricing influence on repeat customer engagement
-- Visualize insights through interactive dashboards for real-world decision support
+This project analyzes Zomato restaurant data to uncover customer behavior patterns, city-wise restaurant trends, pricing strategies, and cuisine preferences. The goal is to derive insights that can help restaurants improve customer engagement and business performance.
 
 ---
 
-##  Tools & Technologies Used
-| Category        | Tools / Libraries |
-|-----------------|------------------|
-| Programming     | Python, Pandas, NumPy |
-| Visualization   | Matplotlib, Seaborn, **Power BI** |
-| Dataset Source  | Kaggle (Zomato Restaurant Data) |
-| Notebook Environment | Jupyter Notebook |
+## 🎯 Project Objectives
+- Identify key factors influencing restaurant ratings and customer satisfaction
+- Compare restaurant performance across major Indian cities
+- Analyze revenue and pricing trends across cuisine categories
+- Build interactive dashboards for business decision support
 
 ---
 
-##  Data Processing Workflow
-1. Cleaned dataset (removed duplicates, handled missing values)
-2. Standardized cuisine and city label formatting
-3. Performed exploratory data analysis (EDA)
-4. Grouped metrics by City, Cuisine, and Restaurant Type
-5. Built KPIs and visual dashboards in Power BI
+## 🧰 Tools & Technologies Used
+| Category | Tools |
+|---------|-------|
+| Programming | Python (Pandas, NumPy) |
+| Dashboarding | **Power BI** |
+| Visualization | Matplotlib, Seaborn |
+| Data Source | Kaggle – Zomato Restaurant Dataset |
+| Notebook | Jupyter Notebook |
 
 ---
 
-##  Key Insights & Findings
-- **Mid-range restaurants (₹200–₹350 average cost)** show **34% higher repeat customer engagement**
-- Cities with high restaurant density tend to have **strong review activity** and competitive pricing
-- Cloud Kitchens and Quick Bites category had the **fastest growth**, driven by online ordering trends
-- Ratings are strongly influenced by **service consistency and delivery experience**, not just food price
+## 🔄 Data Workflow
+1. Data Cleaning (handling duplicates & missing values)
+2. Standardizing city & cuisine labels
+3. Exploratory Data Analysis (EDA)
+4. KPI formulation (Rating, Review Count, Avg Cost, etc.)
+5. Dashboard creation in Power BI for storytelling
 
 ---
 
-##  Dashboard Previews
+## 📊 Key Insights
+- Mid-range restaurants (₹200–₹350) show **higher customer retention**
+- Cloud Kitchens show **rapid scaling capability**, driven by online orders
+- Food Rating correlates more with **delivery time and service consistency** than pricing
+- Tier-1 cities show more competition but stable rating behavior
 
-### Main KPI & City / Type Distribution
+---
+
+## 🖥 Dashboard Previews
+
+### Main KPIs & Distribution by City / Type
 ![Dashboard Preview](dashboard_preview.png)
 
-### Ratings, Map, Cuisine Composition & Top Restaurants
+### Rating Trends, Cuisine Mix & Top Restaurants
 ![Dashboard Insights](dashboard_insights.png)
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 zomato-data-analysis/
-│
-├── Zomato project codes.ipynb # Data cleaning + EDA
-├── Zomato restaurant dashboard.pbix # Power BI dashboard source file
-├── dashboard_preview.png # KPI overview screenshot
-├── dashboard_insights.png # Trend & composition screenshot
-└── README.md # Project documentation
+│── Zomato project codes.ipynb # EDA + Preprocessing
+│── Zomato restaurant dashboard.pbix # Power BI Dashboard
+│── dashboard_preview.png # Screenshot 1
+│── dashboard_insights.png # Screenshot 2
+└── README.md # Project Documentation
 
 
-##  Conclusion
-This analysis highlights how **pricing strategy, restaurant type, and customer experience** influence restaurant success. Businesses can use these insights to:
-
-- Improve menu pricing decisions  
-- Prioritize cuisines based on city-specific demand  
-- Enhance customer experience for higher ratings and repeat orders  
-
-This project demonstrates the ability to **analyze real-world data and convert insights into business-focused recommendations.**
+## ✅ Conclusion
+Consistent service quality and optimized pricing strategies have a strong positive impact on customer satisfaction and retention. The insights from this project can help restaurant owners make informed menu, pricing, and marketing decisions.
